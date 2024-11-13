@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-socio {
+  @apply overflow-hidden m-2 p-5 rounded-2xl w-[300px] bg-gray-500 text-gray-100 items-center justify-center text-center;
+}
+
+.card-socios {
+  @apply flex items-center justify-center text-center flex-wrap py-4
+}
