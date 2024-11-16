@@ -4,7 +4,7 @@ export default function LinhaIdade(props: any) {
     let idade = differenceInYears(new Date(), data_abertura);
     let linha = `${idade} anos de existência`
     return (
-      <div className="text-center">
+      <div className="text-center text-secondary text-xl font-semibol">
         <p className="">{linha}</p>
       </div>
     )

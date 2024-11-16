@@ -7,9 +7,9 @@ export default function CardSocio(props: any) {
     qualificacao = replace(qualificacao, /[\d]/g, '');
     qualificacao = replace(qualificacao, /-/g, ' ');
     return (
-      <div className="card-socio">
-        <p className="">{socio}</p>
-        <p className="">{qualificacao}</p>
+      <div className="bg-white border border-secondary-light rounded-lg shadow-md p-6 m-1 text-center">
+        <p className="text-xl text-secondary-dark">{socio}</p>
+        <p className="text-secondary">{qualificacao}</p>
       </div>
     )
   }
