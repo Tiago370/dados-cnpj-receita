@@ -8,7 +8,7 @@ export default function LinhaEndenreco(props: any) {
     let uf = props.endereco.uf;
     let endereco = `${logradouro}, ${numero} - ${bairro}, ${municipio} - ${uf}, ${cep}`
     return (
-      <div className="text-center text-secondary text-base">
+      <div className="text-neutral-1 text-center text-base">
         <p className="">{endereco}</p>
       </div>
     )

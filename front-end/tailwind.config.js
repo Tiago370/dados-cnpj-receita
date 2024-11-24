@@ -9,14 +9,22 @@ export default {
     extend: {
       colors: {
         primary: {
-          light: '#3B82F6',  // Azul claro
-          DEFAULT: '#1E3A8A', // Azul escuro
-          dark: '#1E40AF',
+          1: '#203D54',
+          2: '#1A4971',
+          3: '#2368A2',
+          4: '#3183C8',
+          5: '#63A2D8',
+          6: '#AAD4F5',
+          7: '#EFF8FF',
         },
-        secondary: {
-          light: '#F3F4F6', // Cinza claro
-          DEFAULT: '#6B7280', // Cinza médio
-          dark: '#374151',   // Cinza escuro
+        neutral: {
+          1: '#212934',
+          2: '#5F6B7A',
+          3: '#8895A7',
+          4: '#B8C4CE',
+          5: '#CFD6DE',
+          6: '#E1E7EC',
+          7: '#F8F9FA',
         },
         success: '#10B981',  // Verde
         warning: '#F59E0B',  // Amarelo

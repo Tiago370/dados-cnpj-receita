@@ -8,15 +8,15 @@ export default function CardCNAE(props: any) {
         <div>
             {
                 principal && (
-                    <div className="bg-secondary-dark border border-secondary-light rounded-lg shadow-md p-6 m-1 text-left">
-                        <p className=""><span className='text-lg text-secondary-light'>{descricao}</span><span className='text-sm text-secondary'> - ({codigo})</span></p>
+                    <div className="bg-neutral-6 border border-secondary-light rounded-lg shadow-md p-6 m-1 text-left">
+                        <p className=""><span className='text-neutral-1 text-lg'>{descricao}</span><span className='text-neutral-2 text-sm'> - ({codigo})</span></p>
                     </div>
                 )
             }
             {
                 !principal && (
-                    <div className="bg-white border border-secondary-light rounded-lg shadow-md p-6 m-1 text-left">
-                        <p className=""><span className='text-lg text-secondary-dark'>{descricao}</span><span className='text-sm text-secondary'> - ({codigo})</span></p>
+                    <div className="bg-neutral-6 border border-secondary-light rounded-lg shadow-md p-6 m-1 text-left">
+                        <p className=""><span className='text-neutral-1 text-lg'>{descricao}</span><span className='text-neutral-2 text-sm'> - ({codigo})</span></p>
                     </div>
                 )
             }

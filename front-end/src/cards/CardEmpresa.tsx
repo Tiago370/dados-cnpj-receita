@@ -24,12 +24,12 @@ export default function CardEmpresa(props: any) {
     }
     return (
         <>
-            <div className="bg-white border border-secondary-light rounded-lg shadow-md p-6 text-center">
-                <p className="text-primary-dark text-4xl font-bold">{fantasia}</p>
-                <p className="text-primary-dark text-2xl font-semibol">{nome}</p>
-                <p className="text-primary-dark text-xl font-semibol">{cnpj}</p>
+            <div className="bg-neutral-6 rounded-lg shadow-md p-6 m-6 text-center">
+                <p className="text-neutral-1 text-4xl font-bold">{fantasia}</p>
+                <p className="text-neutral-1 text-2xl font-bold">{nome}</p>
+                <p className="text-neutral-1 text-xl font-bold">{cnpj}</p>
                 {/* <p className="">{situacao}</p> */}
-                <p className="text-secondary text-2xl font-semibol">{natureza_juridica}</p>
+                <p className="text-neutral-1 text-2xl font-semibol">{natureza_juridica}</p>
                 <LinhaIdade data_abertura={data_abertura} />
                 <LinhaEndereco endereco={endereco} />
                 <CardSocios socios={socios} />
